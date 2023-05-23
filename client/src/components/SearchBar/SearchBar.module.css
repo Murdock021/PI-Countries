@@ -1,0 +1,49 @@
+.container{
+    display: ruby;
+    justify-content: center;
+}
+
+.navul{
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.buttonsearch{
+    background : #094b65;
+    border: none;
+    color : white; 
+    cursor: pointer;
+    margin-top: 13px;
+    height: 35px;
+    border-radius: 0 10px 10px 0;
+}
+
+.buttonsearch:hover{
+    background :#094b65a9;
+}
+
+.inputsearch{
+    border-radius : 0.5em;
+    margin-top: 13px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+
+.inputsearch:hover{
+    background : #094b6527;
+    color: black;
+}
+
+.containercard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 15px 0 0 0;    
+}
+
+@media screen and (max-width: 780px){
+    .navul{
+        padding-left: 18px;
+    } 
+}

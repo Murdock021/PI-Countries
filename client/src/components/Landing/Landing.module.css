@@ -1,0 +1,60 @@
+.divlanding {
+    height: 100vh;
+    background-image: url('../../image/Landing2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divimg {
+    height: 300px;
+    width: 300px;
+}
+
+.divdescrp {
+    width: 60%;
+    margin: 4px;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 2px aliceblue;
+}
+
+.buttonlan1 {
+    font-size: 30px;
+    border-radius: 9px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    border: 5px solid;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.buttonlan1:hover {
+    background: rgba(19, 28, 116, 0.6);
+    transition: 0.5s;
+}
+
+.pland {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: fangsong;
+}
+
+
+@media (max-width: 850px) {
+
+
+    .divdescrp {
+        background-color: aliceblue;
+        width: 96%;
+        margin: 4px;
+        border-radius: 10px;
+        box-shadow: 2px aliceblue;
+
+    }
+}
